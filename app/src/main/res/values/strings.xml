@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">淘宝</string>
+    <string name="alipay">
+        <a href='https://www.alipay.com/'>查看更多 ></a>
+    </string>
+    <string name="starbucks">
+        <a href='https://www.starbucks.com.cn/'>更多服务 ></a>
+    </string>
+</resources>

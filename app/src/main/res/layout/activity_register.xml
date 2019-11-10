@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_x="0dp"
+        android:gravity="center"
+        android:text="欢迎进入注册界面"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="15dp"
+        android:layout_y="129dp"
+        android:text="用户名："
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/usernameRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="117dp"
+        android:hint="请输入用户名"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="32dp"
+        android:layout_y="213dp"
+        android:text="密码："
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="203dp"
+        android:hint="请输入密码"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_x="128dp"
+        android:layout_y="294dp"
+        android:text="注册" />
+</AbsoluteLayout>
+
+
